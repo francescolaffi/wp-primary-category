@@ -1,0 +1,23 @@
+{
+    "name": "francescolaffi/wp-primary-category",
+    "description": "WordPress plugin to select a primary category for posts.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Francesco Laffi",
+            "email": "francesco@laffi.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FrancescoLaffi\\PrimaryCategory\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "lucatume/wp-browser": "~1.21"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
